@@ -9,7 +9,9 @@ class ComplianceIssue(TypedDict):
 
 class VideoAuditState(TypedDict):
     '''
-    Defines the data schema for langgraph execution content 
+    Defines the data schema for langgraph execution content.
+    Main container : Holds all the information about the audit
+    right from the initial URL to the final report.
     '''
     vid_url : str
     vid_id : str
